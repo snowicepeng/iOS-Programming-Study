@@ -12,6 +12,7 @@
 		96DD497B1ED665A600F29394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD49791ED665A600F29394 /* Main.storyboard */; };
 		96DD497D1ED665A600F29394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DD497C1ED665A600F29394 /* Assets.xcassets */; };
 		96DD49801ED665A600F29394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD497E1ED665A600F29394 /* LaunchScreen.storyboard */; };
+		B71DC58D1EE06D9300634764 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71DC58C1EE06D9300634764 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		96DD497C1ED665A600F29394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DD497F1ED665A600F29394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DD49811ED665A600F29394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71DC58C1EE06D9300634764 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71DC58D1EE06D9300634764 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				96DD49741ED665A600F29394 /* WorldTrotter */,
 				96DD49731ED665A600F29394 /* Products */,
+				B71DC58B1EE06D9200634764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				96DD49811ED665A600F29394 /* Info.plist */,
 			);
 			path = WorldTrotter;
+			sourceTree = "<group>";
+		};
+		B71DC58B1EE06D9200634764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B71DC58C1EE06D9300634764 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
